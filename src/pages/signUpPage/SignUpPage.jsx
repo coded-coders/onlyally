@@ -12,11 +12,11 @@ const SignUpPage = () => {
   return (
     <StyledSignUpContainer>
       <h1>
-        MyLibrary <span>M</span>
+        ReadersPlugs <span>M</span>
       </h1>
       <Info primary>Where stories live</Info>
 
-      <h2>Join MyLibrary</h2>
+      <h2>Join ReadersPlugs</h2>
 
       <Info>
         Be a part of a global community of readers and writers, all connected

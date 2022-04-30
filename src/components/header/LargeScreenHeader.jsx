@@ -15,7 +15,7 @@ const LargeScreenHeader = () => {
       <StyledHeaderLeft>
         <h1>
           <Link to='/'>
-            MyLibrary
+            ReadersPlugs
             <span>
               <Icons.Book />
             </span>
