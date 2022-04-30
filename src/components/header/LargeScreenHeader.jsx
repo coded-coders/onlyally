@@ -1,20 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Icons } from '../icons';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Icons } from "../icons";
 import {
   StyledHeaderContainer,
   StyledHeaderLeft,
   StyledHeaderRight,
   StyledInputBoxWrapper,
   StyledUserProfileWrapper,
-} from './styles/header';
+} from "./styles/header";
 
 const LargeScreenHeader = () => {
   return (
     <StyledHeaderContainer>
       <StyledHeaderLeft>
         <h1>
-          <Link to='/'>
+          <Link to="/">
             ReadersPlugs
             <span>
               <Icons.Book />
@@ -23,7 +23,7 @@ const LargeScreenHeader = () => {
         </h1>
 
         <h2>
-          <Link to='/'>
+          <Link to="/">
             My
             <Icons.Book />
           </Link>
@@ -47,7 +47,7 @@ const LargeScreenHeader = () => {
           <span>
             <Icons.Search />
           </span>
-          <input type='text' placeholder='Search' />
+          <input type="text" placeholder="Search" />
         </StyledInputBoxWrapper>
       </StyledHeaderLeft>
       <StyledHeaderRight>

@@ -1,54 +1,54 @@
-import { Images } from '../images';
-import { Icons } from '../icons';
+import { Images } from "../images";
+import { Icons } from "../icons";
 
 export const topPicksStory = [
   {
     pic: `${Images.top1}`,
-    name: 'marriage',
+    name: "marriage",
   },
   {
     pic: Images.top2,
-    name: 'horror',
+    name: "horror",
   },
   {
     pic: Images.top3,
-    name: 'king',
+    name: "king",
   },
   {
     pic: Images.top4,
-    name: 'classics',
+    name: "classics",
     // currency: <Icons.Dollar />,
   },
   {
     pic: Images.top5,
-    name: 'powers',
+    name: "powers",
   },
 ];
 
 export const paidStories = [
   {
     pic: Images.horror2,
-    name: 'horror',
+    name: "horror",
     currency: <Icons.Dollar />,
   },
   {
     pic: Images.horror3,
-    name: 'lovestory',
+    name: "lovestory",
     currency: <Icons.Dollar />,
   },
   {
     pic: Images.horror4,
-    name: 'romance',
+    name: "romance",
     currency: <Icons.Dollar />,
   },
   {
     pic: Images.horror5,
-    name: 'betrayal',
+    name: "betrayal",
     currency: <Icons.Dollar />,
   },
   {
     pic: Images.horror6,
-    name: 'thriller',
+    name: "thriller",
     currency: <Icons.Dollar />,
   },
 ];
@@ -56,122 +56,122 @@ export const paidStories = [
 export const completedStories = [
   {
     pic: Images.Adult1,
-    name: 'student',
+    name: "student",
     // currency: <Icons.Dollar />,
   },
   {
     pic: Images.Adult2,
-    name: 'love',
+    name: "love",
   },
   {
     pic: Images.Adult1,
-    name: 'newadult',
+    name: "newadult",
     // currency: <Icons.Dollar />,
   },
   {
     pic: Images.Adult3,
-    name: 'teen',
+    name: "teen",
   },
   {
     pic: Images.Adult4,
-    name: 'goodread',
+    name: "goodread",
   },
 ];
 
 export const editorStories = [
   {
     pic: Images.fan2,
-    name: 'hansolo',
+    name: "hansolo",
     currency: <Icons.Dollar />,
   },
   {
     pic: Images.fan3,
-    name: 'firstkiss',
+    name: "firstkiss",
   },
   {
     pic: Images.fan4,
-    name: 'marvel',
+    name: "marvel",
     currency: <Icons.Dollar />,
   },
   {
     pic: Images.fan5,
-    name: 'complete',
+    name: "complete",
   },
   {
     pic: Images.fan6,
-    name: 'sexuality',
+    name: "sexuality",
   },
 ];
 
 export const bingeableStories = [
   {
     pic: Images.literature1,
-    name: 'nigeria',
+    name: "nigeria",
   },
   {
     pic: Images.literature2,
-    name: 'nigeria',
+    name: "nigeria",
   },
   {
     pic: Images.literature3,
-    name: 'priestess',
+    name: "priestess",
   },
   {
     pic: Images.literature4,
-    name: 'author',
+    name: "author",
   },
   {
     pic: Images.literature5,
-    name: 'queen',
+    name: "queen",
   },
 ];
 
 export const talkOfTownStories = [
   {
     pic: Images.science1,
-    name: 'thriller',
+    name: "thriller",
   },
   {
     pic: Images.science2,
-    name: 'future',
+    name: "future",
     currency: <Icons.Dollar />,
   },
   {
     pic: Images.science3,
-    name: 'demons',
+    name: "demons",
     currency: <Icons.Dollar />,
   },
   {
     pic: Images.science4,
-    name: 'royalty',
+    name: "royalty",
   },
   {
     pic: Images.science5,
-    name: 'balls',
+    name: "balls",
   },
 ];
 
 export const inviteStory = [
   {
     pic: Images.teen1,
-    name: 'fae',
+    name: "fae",
   },
   {
     pic: Images.teen2,
-    name: 'life',
+    name: "life",
     currency: <Icons.Dollar />,
   },
   {
     pic: Images.teen3,
-    name: 'retelling',
+    name: "retelling",
   },
   {
     pic: Images.teen4,
-    name: 'funny',
+    name: "funny",
   },
   {
     pic: Images.teen5,
-    name: 'teen',
+    name: "teen",
     currency: <Icons.Dollar />,
   },
 ];
