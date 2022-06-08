@@ -5,7 +5,7 @@ import GroupTabsMain from  "../../components/groups/GroupTabsMain.jsx"
 import Image from "next/image";
 import { useSelector, useDispatch } from "react-redux";
 import {useEffect} from "react"
-import {fetchGroupsStart} from "../../store/slices/groupsSlice";
+import {fetchGroupsStart, fetchGroupsCategoriesStart} from "../../store/slices/groupsSlice";
 
 const Groups = () => {
 
@@ -21,6 +21,11 @@ const Groups = () => {
     "person3",
     "person8",
   ];
+
+useEffect(() => {
+  dispatch(fetchGroupsStart());
+  dispatch(fetchGroupsCategoriesStart())
+}, [])
 
   const groups = useSelector(state => state.groups.groups)
 
