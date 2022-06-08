@@ -156,7 +156,7 @@ const Environment = {
 
     const url =
       "https://playjor-cors.herokuapp.com/" +
-      "https://cp.playjor.com/api/user/" +
+      apiUrl +
       action;
 
     const formData = new FormData();

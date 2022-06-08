@@ -43,6 +43,7 @@ export default function Home() {
   };
 
   useEffect(() => {
+    dispatch(fetchUserDetailsStart());
     localStorage.setItem("userId", loginDetails.user_id);
     localStorage.setItem("token", loginDetails.token);
     localStorage.setItem("userLoginStatus", true);

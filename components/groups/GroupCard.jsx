@@ -6,7 +6,7 @@ import {useSelector, useDispatch} from "react-redux";
 const GroupCard = ({
   filter,
   profile,
-  groups,
+  groupsPage,
   groupsAll,
   groupsSuggestion,
   group
@@ -116,7 +116,7 @@ const GroupCard = ({
       </div>
     );
   }
-  if (groups) {
+  if (groupsPage) {
     return (
       <div className="flex flex-col w-[230px] flex-shrink-0 flex-grow-0   rounded-t-lg border shadow-md ">
         <div className="relative h-24 w-full rounded-t-lg">
