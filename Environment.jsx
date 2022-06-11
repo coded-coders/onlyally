@@ -159,7 +159,7 @@ const Environment = {
     const cookies = getCookies();
 
     const url =
-      "https://playjor-cors.herokuapp.com/" +
+      // "https://playjor-cors.herokuapp.com/" +
       apiUrl +
       action;
 
@@ -224,7 +224,6 @@ const Environment = {
     const cookies = getCookies();
 
     const url =
-      "https://playjor-cors.herokuapp.com/" +
       apiUrl +
       action;
 
@@ -288,7 +287,6 @@ const Environment = {
     const cookies = getCookies();
 
     const url =
-      "https://playjor-cors.herokuapp.com/" +
       apiUrl + action;
 
     const formData = new FormData();

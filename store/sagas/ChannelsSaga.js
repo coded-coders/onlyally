@@ -16,7 +16,7 @@ import {
 
 function* fetchChannelsAPI(action) {
     try {
-      const response = yield api.playPostMethod({
+      const response = yield api.getMethod({
         action: "channels"
       });
       if (response.data.success) {
