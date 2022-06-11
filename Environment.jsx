@@ -123,10 +123,11 @@ const Environment = {
         method: "POST",
         url: url,
         data: formData,
-        // headers: {
-        //   "content-type": "application/json",
-        //   accept: "application/json",
-        // },
+        headers: {
+          "Accept": "application/json",
+          "Authorization": `Bearer ${token}` ,
+          "Access-Control-Allow-Origin": "*",
+        },
       };
     } else {
       var config = {
@@ -134,6 +135,9 @@ const Environment = {
         url: url,
         headers: {
           ...formData.getHeaders(),
+          'Authorization': `Bearer ${accessToken}`,
+          "Accept": "application/json",
+          "Access-Control-Allow-Origin": "*",
           // "content-type": "application/json",
           // accept: "application/json",
         },
@@ -203,6 +207,7 @@ const Environment = {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
         "Access-Control-Allow-Headers": "Authorization",
+        "Authorization": `Bearer ${cookies.accessToken}` 
       },
       data: formData,
     };
@@ -266,6 +271,7 @@ const Environment = {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
         "Access-Control-Allow-Headers": "Authorization",
+        "Authorization": `Bearer ${cookies.accessToken}`
       },
       data: formData,
     };
@@ -330,6 +336,7 @@ const Environment = {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
         "Access-Control-Allow-Headers": "Authorization",
+        "Authorization": `Bearer ${cookies.accessToken}`
       },
       data : data,
     };
