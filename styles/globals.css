@@ -827,3 +827,27 @@ input:checked ~ .tick-bg {
     opacity: 1;
   }
 }
+.trangle {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+
+  border-left: 15px solid rgb(107 114 128);
+}
+.trangle-white {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+
+  border-left: 15px solid white;
+}
+.trangle-grey {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+
+  border-left: 15px solid rgb(229 231 235);
+}
